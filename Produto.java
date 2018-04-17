@@ -2,6 +2,8 @@ public abstract class Produto{
 	private String codigo, descricao;
 	private float valor;
 
+	public Produto();
+
 	public void setCodigo(String codigo){
 		this.codigo = codigo;
 	}
