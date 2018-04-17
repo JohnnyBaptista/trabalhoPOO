@@ -3,6 +3,13 @@ public class ProdutoNacional extends Produto{
 
 	public ProdutoNacional();
 
+	public void setTaxaImposto(float taxaImposto){
+		this.taxaImposto = taxaImposto;
+	}
+	public float getTaxaImposto(){
+		return this.taxaImposto;
+	}
+
 	public float calcularPrecos(){
 		//DEFINIR
 	}
